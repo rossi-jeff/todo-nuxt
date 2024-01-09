@@ -51,9 +51,9 @@ const deleteTodo = () => {
 
 <style>
 .todo-card {
-  @apply flex p-2 mb-2 border border-black rounded;
+  @apply flex p-2 mb-2 border-b border-blue-700 border-dashed;
 }
 textarea {
-  @apply w-full border border-black rounded text-sm py-1 px-2;
+  @apply w-full border border-black rounded text-sm py-1 px-2 bg-white;
 }
 </style>

@@ -160,7 +160,10 @@ const signOut = () => {
   @apply block;
 }
 .dialog-header {
-  @apply bg-black text-white p-2 rounded;
+  @apply text-white p-2 rounded bg-blue-800;
+}
+.dialog-header h2 {
+  @apply text-white;
 }
 .field {
   @apply pt-2;
