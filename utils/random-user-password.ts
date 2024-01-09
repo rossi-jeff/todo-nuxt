@@ -1,2 +1,1 @@
-export const randomUserPassword = "T0pS3cret!";
-
+export const randomUserPassword = import.meta.env.VITE_RANDOM_USER_PW || "";
